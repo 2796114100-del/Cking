@@ -4,6 +4,7 @@
 import os
 os.environ["NO_PROXY"] = "localhost,127.0.0.1"
 
+import uuid
 import shutil
 import gradio as gr
 from agent import invoke_agent
@@ -15,7 +16,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 SUPPORTED_EXTS = {'.txt', '.docx', '.pptx', '.xlsx', '.jpg', '.jpeg', '.png', '.bmp', '.webp'}
 
 
-def chat(message, history, uploaded_file):
+def chat(message, history, uploaded_file, session_id):
     """处理聊天消息，如果有上传文件则传给 Agent"""
     if uploaded_file is not None:
         # uploaded_file 是 Gradio 传来的临时文件路径
@@ -37,7 +38,7 @@ def chat(message, history, uploaded_file):
     else:
         prompt = message
 
-    reply = invoke_agent(prompt, thread_id="gradio_user")
+    reply = invoke_agent(prompt, thread_id=session_id)
     return reply
 
 
@@ -67,8 +68,9 @@ with gr.Blocks(title="Cking - 影视器材专家") as demo:
         )
         clear_btn = gr.Button("清空对话", scale=1)
 
-    # 状态：记录上传的文件
+    # 状态：记录上传的文件和用户会话ID
     uploaded_state = gr.State(value=None)
+    session_id_state = gr.State(value=str(uuid.uuid4()))
 
     def on_file_upload(file):
         if file:
@@ -81,9 +83,9 @@ with gr.Blocks(title="Cking - 影视器材专家") as demo:
         outputs=[uploaded_state, gr.Textbox(label="文件状态", interactive=False)],
     )
 
-    def on_send(message, history, uploaded_file):
+    def on_send(message, history, uploaded_file, session_id):
         if not message.strip():
-            return history, "", uploaded_file
+            return history, "", uploaded_file, session_id
 
         # 显示用户消息
         user_display = message
@@ -92,30 +94,30 @@ with gr.Blocks(title="Cking - 影视器材专家") as demo:
 
         history = history + [{"role": "user", "content": user_display}]
 
-        # 调用 Agent
-        reply = chat(message, history, uploaded_file)
+        # 调用 Agent，使用独立的 session_id
+        reply = chat(message, history, uploaded_file, session_id)
 
         history = history + [{"role": "assistant", "content": reply}]
 
         # 清空输入和文件状态
-        return history, "", None
+        return history, "", None, session_id
 
     send_btn.click(
         fn=on_send,
-        inputs=[msg, chatbot, uploaded_state],
-        outputs=[chatbot, msg, uploaded_state],
+        inputs=[msg, chatbot, uploaded_state, session_id_state],
+        outputs=[chatbot, msg, uploaded_state, session_id_state],
     )
 
     msg.submit(
         fn=on_send,
-        inputs=[msg, chatbot, uploaded_state],
-        outputs=[chatbot, msg, uploaded_state],
+        inputs=[msg, chatbot, uploaded_state, session_id_state],
+        outputs=[chatbot, msg, uploaded_state, session_id_state],
     )
 
     def on_clear():
-        return [], "", None
+        return [], "", None, str(uuid.uuid4())  # 清空时生成新的 session_id
 
-    clear_btn.click(fn=on_clear, outputs=[chatbot, msg, uploaded_state])
+    clear_btn.click(fn=on_clear, outputs=[chatbot, msg, uploaded_state, session_id_state])
 
     gr.Markdown("""
     **使用提示：**
