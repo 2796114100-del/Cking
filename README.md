@@ -371,6 +371,15 @@ ollama pull qwen3:8b
 
 确保已运行 `python setup_rag.py` 构建索引。如果修改了 `docs/` 中的文档，需要重新运行。
 
+### Q: Gradio 启动时报 502 错误？
+
+如果看到 `Exception: Couldn't start the app because 'http://localhost:7860/gradio_api/startup-events' failed (code 502)`，说明系统代理干扰了 Gradio。代码中已自动设置 `NO_PROXY=localhost` 来修复此问题。如果仍然报错，手动设置环境变量后再启动：
+
+```bash
+set NO_PROXY=localhost,127.0.0.1
+python webui.py
+```
+
 ### Q: Gradio 界面打不开？
 
 检查端口 7860 是否被占用：
