@@ -1,9 +1,13 @@
 # agent.py
 # Agent 主逻辑：加载模型、加载工具、注册记忆、注入灵魂(System Prompt)
 
+import os
+os.environ["NO_PROXY"] = "localhost,127.0.0.1"
+
 from langchain_ollama import ChatOllama
 from langgraph.prebuilt import create_react_agent
-from langgraph.checkpoint.memory import MemorySaver
+import sqlite3
+from langgraph.checkpoint.sqlite import SqliteSaver
 from langchain_core.tools import tool
 from langchain_core.messages import SystemMessage, HumanMessage
 
@@ -76,7 +80,8 @@ tools = [
     tool(analyze_image),
 ]
 
-memory = MemorySaver()
+conn = sqlite3.connect("cking_memory.db", check_same_thread=False)
+memory = SqliteSaver(conn)
 
 # ----- 3. 创建 Agent 执行器 -----
 agent_executor = create_react_agent(model, tools, checkpointer=memory)
