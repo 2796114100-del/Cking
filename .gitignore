@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+
+# 向量数据库（运行时生成，太大不上传）
+chroma_db/
+
+# 上传文件（用户临时文件）
+uploads/
+
+# 日志文件
+*.log
+
+# Gradio 缓存
+.gradio/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+*.exe
+
+# Cloudflare tunnel binary
+cloudflared.exe

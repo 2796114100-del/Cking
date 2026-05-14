@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "Cking": {
+      "type": "stdio",
+      "command": "C:\\Users\\TttttJAY\\Desktop\\my_agent\\venv\\Scripts\\python.exe",
+      "args": ["C:\\Users\\TttttJAY\\Desktop\\my_agent\\mcp_server.py"],
+      "cwd": "C:\\Users\\TttttJAY\\Desktop\\my_agent"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+一、免费样片/灰片下载（练习调色用）
+
+影视飓风（影像飓风）官网
+网址：https://www.yingshijuji.com
+内容：提供大量免费LOG灰片下载，包括索尼S-Log、佳能C-Log、松下V-Log等格式
+用途：下载后在DaVinci Resolve中练习调色
+推荐理由：国内最专业的免费样片资源，素材质量极高
+
+Blackmagic Design官方样片
+网址：https://www.blackmagicdesign.com/products/blackmagicpocketcinemacamera
+内容：BMPCC拍摄的BRAW格式样片
+用途：练习BRAW调色
+
+RED Digital Cinema样片
+网址：https://www.red.com/sample-r3d-files
+内容：R3D格式RAW样片
+用途：练习RED RAW调色
+
+ARRI官方样片
+网址：https://www.arri.com/en/camera-systems/cameras/alexa-35
+内容：ARRIRAW和ProRes样片
+用途：体验ARRI色彩科学
+
+Artgrid（付费但质量高）
+网址：https://artgrid.io
+内容：专业级视频素材库
+价格：年费约2000-4000元
+用途：商业项目素材
+
+Pexels / Pixabay（免费）
+网址：https://pexels.com/videos / https://pixabay.com/videos
+内容：免费可商用视频素材
+用途：练手、小项目素材
+
+二、B站摄影/摄像UP主推荐
+
+【器材评测类】
+- 影视飓风：国内最专业的影视器材评测+教程，Tim主持，内容硬核
+- 大疆灵眸：DJI官方频道，无人机和稳定器教程
+- 索尼中国：索尼官方频道，相机教程和样片
+- 蜂鸟网：器材评测和摄影技巧
+
+【拍摄技巧类】
+- 顾俊：摄影器材评测+拍摄技巧，讲解通俗易懂
+- 影叶的光色世界：风光摄影+后期调色，教程详细
+- 摄影师泰罗：人像摄影+布光技巧，实战经验丰富
+- 杰克JK：短片拍摄技巧+器材评测
+- 陈文坚：视频拍摄+剪辑教程，适合新手
+
+【剪辑调色类】
+- 达芬奇调色师：DaVinci Resolve调色教程，从入门到精通
+- 剪映官方：剪映使用教程，适合短视频创作者
+- PR教程网：Premiere Pro系统教程
+- 影视后期狗：After Effects+DaVinci教程
+- 调色师小王子：专业调色教程，案例丰富
+
+【导演/编剧类】
+- 毒舌电影：电影分析+拉片，学习叙事技巧
+- 电影最TOP：电影解说+分析，学习蒙太奇
+- 拉片实验室：逐帧分析经典电影镜头
+
+三、剪辑调色学习路径
+
+入门阶段（1-2周）：
+1. 学习DaVinci Resolve基础操作（免费版够用）
+2. 了解色彩空间：Rec.709、Log、RAW的区别
+3. 学习一级调色：白平衡、曝光、对比度
+4. 下载影视飓风的LOG样片练习
+
+进阶阶段（1-2月）：
+1. 学习二级调色：局部调色、蒙版、跟踪
+2. 学习LUT的使用和制作
+3. 学习色彩匹配：多机位素材统一色彩
+4. 练习不同风格：电影感、日系、复古、赛博朋克
+
+专业阶段（3-6月）：
+1. 学习节点调色（DaVinci Resolve节点树）
+2. 学习HDR调色
+3. 学习ACES色彩管理流程
+4. 建立自己的调色风格和LUT库
+
+推荐学习资源：
+- DaVinci Resolve官方教程（免费）：https://www.blackmagicdesign.com/davinci-resolve/training
+- B站搜索"DaVinci Resolve入门"，推荐"达芬奇调色师"频道
+- YouTube搜索"Color Grading Tutorial"，推荐"Waqas Qazi"频道

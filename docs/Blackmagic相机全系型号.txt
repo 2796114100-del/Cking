@@ -1,0 +1,84 @@
+Blackmagic Design 相机全系型号与规格
+
+【Pocket Cinema系列】
+BMPCC 4K（约8000元）
+传感器：M4/3画幅 21.2mm x 11.9mm
+分辨率：4096x2160（4K DCI）
+帧率：4K 60P / 1080P 120P
+编码：BRAW、ProRes
+动态范围：13档
+卡口：M4/3
+内置ND：无
+特点：最便宜的电影机，DaVinci Resolve内置，入门首选
+
+BMPCC 6K（约12000元）
+传感器：Super 35画幅 23.10mm x 12.99mm
+分辨率：6144x3456（6K）
+帧率：6K 50P / 4K 60P / 1080P 120P
+编码：BRAW、ProRes
+动态范围：13档
+卡口：Canon EF
+内置ND：无
+特点：6K RAW，EF卡口镜头丰富
+
+BMPCC 6K Pro（约18000元）
+传感器：Super 35画幅
+分辨率：6144x3456（6K）
+帧率：6K 50P / 4K 60P / 1080P 120P
+编码：BRAW、ProRes
+动态范围：13档
+卡口：Canon EF
+内置ND：2、4、6档内置ND滤镜
+屏幕：5英寸翻转触摸屏
+特点：内置ND、更大屏幕、可换电池
+
+BMPCC 6K G2（约15000元）
+传感器：Super 35画幅
+分辨率：6144x3456（6K）
+帧率：6K 50P / 4K 60P
+编码：BRAW、ProRes
+卡口：Canon EF
+内置ND：无
+特点：6K Pro的简化版，价格更低
+
+【URSA系列】
+URSA Mini Pro 4.6K G2（约30000元）
+传感器：Super 35画幅
+分辨率：4608x2592（4.6K）
+帧率：4.6K 120P / 4K 150P
+编码：BRAW、ProRes
+动态范围：15档
+卡口：PL/EF/B4可换
+内置ND：4档内置ND
+特点：模块化设计，广播级
+
+URSA Mini Pro 12K（约70000元）
+传感器：Super 35画幅
+分辨率：12288x6480（12K）
+帧率：12K 60P / 8K 120P / 4K 240P
+编码：BRAW
+动态范围：14档
+卡口：PL/EF/B4可换
+内置ND：4档内置ND
+特点：12K超高分辨率，可裁切8K/4K仍保留高画质
+
+【BMPCC系列对比表】
+| 型号 | 价格 | 传感器 | 最高分辨率 | 内置ND | 卡口 |
+|------|------|--------|-----------|--------|------|
+| BMPCC 4K | 8000 | M4/3 | 4K 60P | 无 | M4/3 |
+| BMPCC 6K | 12000 | S35 | 6K 50P | 无 | EF |
+| BMPCC 6K G2 | 15000 | S35 | 6K 50P | 无 | EF |
+| BMPCC 6K Pro | 18000 | S35 | 6K 50P | 有 | EF |
+
+【Blackmagic摄影机共同特点】
+- 全部支持BRAW格式（Blackmagic RAW，高效压缩RAW）
+- 全部内置DaVinci Resolve Studio激活码（价值约2500元）
+- 色彩科学：Blackmagic Film Gen 5，后期空间大
+- 价格极具竞争力，同规格比索尼/佳能便宜很多
+- 缺点：无机身防抖、自动对焦弱（依赖镜头AF）、续航短
+
+【选购建议】
+- 预算有限：BMPCC 4K（8000元），M4/3卡口镜头也便宜
+- 想要6K：BMPCC 6K G2（15000元），性价比最高
+- 需要内置ND：BMPCC 6K Pro（18000元），户外拍摄必备
+- 专业制作：URSA Mini Pro 4.6K G2（30000元），模块化+广播级

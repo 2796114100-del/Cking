@@ -1,0 +1,104 @@
+RED 全系型号与规格
+
+RED DSMC2 系列（模块化）
+RED RANGER Monstro 8K VV（约15万）
+传感器：全画幅VV 40.96mm x 21.60mm
+分辨率：8192x4320（8K VV）
+帧率：8K 60P / 4K 120P
+编码：REDCODE RAW
+动态范围：17+档
+特点：顶级画质，大画幅
+
+RED RANGER Gemini 5K S35（约10万）
+传感器：Super 35画幅
+分辨率：5120x2700（5K）
+帧率：5K 96P / 4K 120P
+编码：REDCODE RAW
+特点：双原生ISO（800/3200），暗光好
+
+RED V-Raptor 8K VV（约25万）
+传感器：全画幅VV
+分辨率：8192x4320（8K VV）
+帧率：8K 120P / 4K 240P
+编码：REDCODE RAW
+特点：最新旗舰，速度极快
+
+RED V-Raptor 6K S35（约18万）
+传感器：Super 35画幅
+分辨率：6144x3240（6K）
+帧率：6K 120P / 4K 240P
+编码：REDCODE RAW
+特点：S35版V-Raptor
+
+RED Komodo 6K（约35000元）
+传感器：Super 35画幅
+分辨率：6144x3240（6K）
+帧率：6K 40P / 4K 60P / 1080P 120P
+编码：REDCODE RAW
+动态范围：16+档
+卡口：Canon RF（可转接EF/PL）
+快门：全局快门（Global Shutter）
+特点：紧凑型电影机，全局快门无果冻效应，RF卡口
+
+RED ONE（已停产，二手约5000-10000元）
+传感器：Super 35画幅
+分辨率：4K
+特点：RED第一台相机，改变了电影行业，收藏价值大于实用价值
+
+RED Komodo 对比 BMPCC 6K Pro：
+| 项目 | RED Komodo 6K | BMPCC 6K Pro |
+|------|---------------|--------------|
+| 价格 | 35000元 | 18000元 |
+| 传感器 | S35 | S35 |
+| 分辨率 | 6K | 6K |
+| 快门 | 全局快门 | 卷帘快门 |
+| 编码 | REDCODE RAW | BRAW/ProRes |
+| 内置ND | 无 | 有 |
+| 卡口 | RF | EF |
+| 自动对焦 | 有（相位） | 弱 |
+| 选择理由 | 全局快门+RED品牌 | 内置ND+便宜 |
+
+---
+
+ARRI 全系型号与规格
+
+ARRI Alexa 35（约30万-50万）
+传感器：Super 35画幅 ARRI ALEV 4
+分辨率：4.6K
+帧率：4.6K 120P / 4K 120P
+编码：ARRIRAW / ProRes
+动态范围：17档
+特点：最新S35电影机，REVEAL色彩科学，业界最佳动态范围
+
+ARRI Alexa Mini LF（约15-20万二手）
+传感器：大画幅 36.70mm x 25.54mm
+分辨率：4.5K
+帧率：4.5K 44P / 4K 60P
+编码：ARRIRAW / ProRes
+动态范围：14.5档
+特点：大画幅+小巧机身，好莱坞标配
+
+ARRI Alexa Mini（约8-12万二手）
+传感器：Super 35画幅
+分辨率：3.4K（S35）
+帧率：3.4K 30P / 2K 200P
+编码：ARRIRAW / ProRes
+特点：曾经的好莱坞标准，被Alexa 35取代
+
+ARRI Alexa 265（约50万+）
+传感器：大画幅65mm
+分辨率：6.5K
+特点：IMAX级别，顶级商业和电影制作
+
+ARRI Amira（约10-15万二手）
+传感器：Super 35画幅
+分辨率：4K UHD
+编码：ProRes（不支持ARRIRAW）
+特点：纪录片/新闻机，肩扛设计，开机即拍
+
+ARRI相机特点总结：
+- 色彩科学业界公认最佳，ALEXA色彩是行业标准
+- 宽容度极高，暗部和高光细节保留最好
+- 价格极高，通常租赁而非购买（日租约2000-5000元）
+- 不追求高分辨率，4K-4.6K足够
+- 好莱坞90%以上的电影使用ARRI拍摄
