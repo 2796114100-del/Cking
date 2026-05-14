@@ -2,6 +2,8 @@
 # Gradio 网页聊天界面 - 支持文件上传
 
 import os
+os.environ["NO_PROXY"] = "localhost,127.0.0.1"
+
 import shutil
 import gradio as gr
 from agent import invoke_agent
